@@ -1,3 +1,8 @@
 body {
   font-family: Roboto;
 }
+ul {
+  list-style-type: none;
+}
+.logo-first {
+}
