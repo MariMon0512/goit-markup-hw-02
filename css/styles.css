@@ -108,9 +108,6 @@ ul {
   background-color: var(--color-background-secondary);
 }
 
-.desc-section {
-  background-color: var(--color-background-secondary);
-}
 .features-title {
   font-weight: 500;
   font-size: 36px;
