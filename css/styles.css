@@ -107,9 +107,7 @@ ul {
 .features-section {
   background-color: var(--color-background-secondary);
 }
-.features-list {
-  background-color: var(--color-background);
-}
+
 .desc-section {
   background-color: var(--color-background-secondary);
 }
