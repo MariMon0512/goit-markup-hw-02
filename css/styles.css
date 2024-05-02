@@ -13,16 +13,15 @@ body {
   font-weight: inherit;
   letter-spacing: 2%;
   background-color: var(--color-background);
-  color: var(--color-primary);
 }
 ul {
   list-style-type: none;
 }
 .logo-first {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
@@ -39,6 +38,7 @@ ul {
   color: var(--color-primary);
 }
 .page-link {
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -50,6 +50,7 @@ ul {
   color: var(--color-brand-secondary);
 }
 .main-address {
+  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -65,11 +66,14 @@ ul {
 }
 .main-title {
   font-size: 56px;
-  line-height: 1.1;
-  letter-spacing: 2%;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
   color: var(--color-background);
 }
 .main-btn {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -77,12 +81,19 @@ ul {
   background-color: var(--color-brand);
 }
 .main-btn:hover {
+  cursor: pointer;
   background-color: var(--color-brand-secondary);
 }
+.main-list {
+  background-color: var(--color-background);
+}
 .features {
+  font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
   color: var(--color-primary);
 }
 .main-info {
@@ -95,9 +106,12 @@ ul {
   background-color: var(--color-background-secondary);
 }
 .features-title {
+  font-weight: 500;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
   color: var(--color-primary);
 }
 .info {
@@ -116,13 +130,13 @@ ul {
   background-color: var(--color-primary);
 }
 .logo-footer {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   color: var(--color-background-secondary);
 }
 .footer-text {
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.17;
   letter-spacing: 0.02em;
   color: var(--color-background-secondary);
 }
