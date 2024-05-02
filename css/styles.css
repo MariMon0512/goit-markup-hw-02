@@ -105,7 +105,7 @@ ul {
   color: var(--color-primary-dark);
 }
 .features-section {
-  background-color: var(--color-background);
+  background-color: var(--color-background-secondary);
 }
 
 .features-title {
@@ -116,6 +116,9 @@ ul {
   text-align: center;
   text-transform: capitalize;
   color: var(--color-primary);
+}
+.features-list {
+  background-color: var(--color-background);
 }
 .info {
   font-size: 16px;
