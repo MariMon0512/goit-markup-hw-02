@@ -107,6 +107,9 @@ ul {
 .features-list {
   background-color: var(--color-background);
 }
+.desc-section {
+  background-color: var(--color-background-secondary);
+}
 .features-title {
   font-weight: 500;
   font-size: 36px;
